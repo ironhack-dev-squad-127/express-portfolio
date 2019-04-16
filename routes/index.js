@@ -14,4 +14,9 @@ router.get('/ironhackers/nelson', (req, res, next) => {
   // Render "/views/ironhackers/maxence.hbs"
   res.render('ironhackers/nelson');
 });
+router.get('/ironhackers/sofia', (req, res, next) => {
+  // Render "/views/ironhackers/sofia.hbs"
+  res.render('ironhackers/sofia');
+});
+
 module.exports = router;
