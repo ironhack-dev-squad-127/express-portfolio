@@ -10,6 +10,11 @@ router.get('/ironhackers/maxence', (req, res, next) => {
   res.render('ironhackers/maxence');
 });
 
+router.get('/ironhackers/diogo', (req, res, next) => {
+  // Render "/views/ironhackers/diogo.hbs"
+  res.render('ironhackers/diogo');
+});
+
 router.get('/ironhackers/guilherme', (req, res, next) => {
   res.render('ironhackers/guilherme');
 });
@@ -22,6 +27,12 @@ router.get('/ironhackers/carla', (req, res, next) => {
 router.get('/ironhackers/sofia', (req, res, next) => {
   // Render "/views/ironhackers/sofia.hbs"
   res.render('ironhackers/sofia');
+
+});
+
+router.get('/ironhackers/hugo', (req, res, next) => {
+  // Render "/views/ironhackers/sofia.hbs"
+  res.render('ironhackers/hugo');
 
 });
 
