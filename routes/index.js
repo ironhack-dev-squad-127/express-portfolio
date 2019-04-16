@@ -10,4 +10,9 @@ router.get('/ironhackers/maxence', (req, res, next) => {
   res.render('ironhackers/maxence');
 });
 
+router.get('/ironhackers/doris', (req, res, next) => {
+  // Render "/views/ironhackers/maxence.hbs"
+  res.render('ironhackers/doris');
+});
+
 module.exports = router;
