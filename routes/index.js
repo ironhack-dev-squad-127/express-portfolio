@@ -15,4 +15,16 @@ router.get('/ironhackers/diogo', (req, res, next) => {
   res.render('ironhackers/diogo');
 });
 
+
+router.get('/ironhackers/carla', (req, res, next) => {
+  // Render "/views/ironhackers/carla.hbs"
+  res.render('ironhackers/carla');
+});
+
+router.get('/ironhackers/sofia', (req, res, next) => {
+  // Render "/views/ironhackers/sofia.hbs"
+  res.render('ironhackers/sofia');
+
+});
+
 module.exports = router;
