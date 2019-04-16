@@ -10,6 +10,11 @@ router.get('/ironhackers/maxence', (req, res, next) => {
   res.render('ironhackers/maxence');
 });
 
+router.get('/ironhackers/diogo', (req, res, next) => {
+  // Render "/views/ironhackers/diogo.hbs"
+  res.render('ironhackers/diogo');
+});
+
 router.get('/ironhackers/guilherme', (req, res, next) => {
   res.render('ironhackers/guilherme');
 });
