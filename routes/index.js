@@ -13,4 +13,16 @@ router.get('/ironhackers/maxence', (req, res, next) => {
 router.get('/ironhackers/guilherme', (req, res, next) => {
   res.render('ironhackers/guilherme');
 });
+
+router.get('/ironhackers/carla', (req, res, next) => {
+  // Render "/views/ironhackers/carla.hbs"
+  res.render('ironhackers/carla');
+});
+
+router.get('/ironhackers/sofia', (req, res, next) => {
+  // Render "/views/ironhackers/sofia.hbs"
+  res.render('ironhackers/sofia');
+
+});
+
 module.exports = router;
