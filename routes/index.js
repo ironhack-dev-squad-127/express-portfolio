@@ -22,4 +22,9 @@ router.get('/ironhackers/sofia', (req, res, next) => {
 
 });
 
+router.get("/ironhackers/jose", (req, res, next) => {
+  // Render "/views/ironhackers/jose.hbs"
+  res.render("ironhackers/jose");
+})
+
 module.exports = router;
