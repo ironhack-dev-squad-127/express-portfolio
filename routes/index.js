@@ -22,4 +22,10 @@ router.get('/ironhackers/sofia', (req, res, next) => {
 
 });
 
+router.get('/ironhackers/hugo', (req, res, next) => {
+  // Render "/views/ironhackers/sofia.hbs"
+  res.render('ironhackers/hugo');
+
+});
+
 module.exports = router;
