@@ -14,6 +14,11 @@ router.get('/ironhackers/nelson', (req, res, next) => {
   // Render "/views/ironhackers/nelson.hbs"
   res.render('ironhackers/nelson');
 });
+router.get('/ironhackers/diogo', (req, res, next) => {
+  // Render "/views/ironhackers/diogo.hbs"
+  res.render('ironhackers/diogo');
+});
+
 router.get('/ironhackers/guilherme', (req, res, next) => {
   res.render('ironhackers/guilherme');
 });
